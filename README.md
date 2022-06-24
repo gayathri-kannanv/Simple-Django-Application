@@ -1,6 +1,6 @@
 # Simple Django Application - Login, Form with HTTPResponse, SQL
 
-###Quick bullets on Django,
+### Quick bullets on Django,
 
 - Popular high level backend server side Python Web framwork
 - Free and Opensource
@@ -12,7 +12,7 @@
 - Provides a ready-to-use Administration GUI.
 - Popular Django applications include Instagram, Mozilla, Spotify, Pinterest.
 
-###Installation and configuration is quite easy and here are the steps:
+### Installation and configuration is quite easy and here are the steps:
 
 #### Windows
 
@@ -31,4 +31,4 @@
 
 Navigate to http://127.0.0.1:8000, you'll see the Django default screen.
 
-####Here in this simple application, there's a login page and after login, taken three inputs from an html frontend home page, and taken the request, produced a http response along with storing them into an external database.
+#### Here in this simple application, there's a login page and after login, taken three inputs from an html frontend home page, and taken the request, produced a http response along with storing them into an external database.
