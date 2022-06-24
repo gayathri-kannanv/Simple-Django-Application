@@ -40,7 +40,7 @@ border-left: 3px solid #000;
   margin: 8px 0;
   box-sizing: border-box;
 }
-a {
+.la {
   background-color: red;
   border: none;
   color: #000;
@@ -49,24 +49,40 @@ a {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.aa {
+  color: blue;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 </style>
 
 <form action="/done/" >
 <br><center>
 Hi {{ user.username }}!</center>
 <br>
-	<p name="ques">How are you</p>
+	<label for="ques">How are you? </label>
 	<input type="text" name="first_val">
-	<p>Where are you</p>
+	<label for="ques">Where are you? </label>
 	<input type="text" name="second_val">
-	<p>Who are you</p>
+	<label for="ques">Who are you? </label>
 	<input type="text" name="third_val"><br>
 	<br>
 	<input type="submit" value="Submit">
+	
+	<br>
+  <H1>Personal Navigator</H1>
+  <br>
+  <a href="https://www.linkedin.com/feed" class="aa"><b><i>Linkedin</i></b></a><br><br>
+  <a href="https://cliq.zoho.com/index.do" class="aa"><b><i>Zoho Cliq</i></b></a><br><br>
+  <a href="https://docs.zoho.com/home#allfiles" class="aa"><b><i>Zoho Docs</i></b></a><br><br>
 	</form>
   
-  <br>
-  <p><a href="{% url 'logout' %}">Log Out</a></p><br>
+  <br><br>
+  <p><a href="{% url 'logout' %}" class="la">Log Out</a></p><br>
 {% else %}
 <style> 
 

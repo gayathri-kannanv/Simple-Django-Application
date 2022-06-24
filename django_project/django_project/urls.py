@@ -29,4 +29,5 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='home.html'), name='home'), # new
     #path('done.html', TemplateView.as_view(template_name='done.html')),
     path('done/', done),
+
 ]
